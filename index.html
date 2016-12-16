@@ -429,22 +429,22 @@ h5{
 
          <div class="col-xs-12 col-md-8">
            
-            <div class="row text-xs-center">
+            <div class="row text-xs-center mt-3 mx-1">
               
-              <div class="col-xs-12 col-md-4 mt-3">
+              <div class="col-xs-4 col-md-4   ">
                <h5> 65 % </h5>
                 <br>
                 <h4> Reunification </h4>
               </div>
 
-               <div class="col-xs-12 col-md-4 mt-3">
+               <div class="col-xs-4 col-md-4 ">
                 <h5> 65 % </h5>
 
                 <br>
                 <h4> Adption </h4>
               </div>
 
-               <div class="col-xs-12 col-md-4 mt-3 ">
+               <div class="col-xs-4 col-md-4  ">
                 <div class="system"> 
                   <h5> 65 % </h5>
                     <br>
@@ -455,7 +455,7 @@ h5{
                 <img src="arrow.png" class="text-xs-center">
                 <br>
                 <br>
-                <img src="18cake.png" class="text-xs-center ">
+                <img src="18cake.png" class="text-xs-center img-fluid">
                 <br>
                 <br>
                 <p class="text-xs-center"> on the 18th birthday you become a transitional youth</p>
@@ -525,7 +525,7 @@ h5{
               <div class="row pt-1 my-2 mx-auto">
               <!-- RESOURCES CONTENT HEADER -->
                <div class="h4bg ">
-                  <h2 id="r4t" class=" text-xs-center mx-auto pt-1 "> 
+                  <h2 id="r5t" class=" text-xs-center mx-auto pt-1 "> 
                   Transitional Foster Age Youth (18-24)
                    </h2>
                   <br>
@@ -540,23 +540,23 @@ h5{
                  
                 </div>
 
-                <div class="col-xs-12 col-md-2">
-                 <img class="img-fluid" id="r2p" src="money_color.png" onclick="">
+                <div class="col-xs-3 col-md-2">
+                 <img class="img-fluid" id="r1p" src="money_color.png" onclick="">
                  <h6> Money </h6>
                 </div>
 
-                 <div class="  col-xs-12 col-md-2">
+                 <div class="  col-xs-3 col-md-2">
                  <img class="img-fluid" id="r2p" src="health.png" onclick="">
                   <h6> Healthcare </h6>
                 </div>
 
-                 <div class="  col-xs-12 col-md-2">
-                 <img class="img-fluid" id="r2p" src="law.png" onclick="">
+                 <div class="  col-xs-3 col-md-2">
+                 <img class="img-fluid" id="r3p" src="law.png" onclick="">
                  <h6> Law </h6>
                 </div>
 
-                 <div class="  col-xs-12 col-md-2">
-                 <img class="img-fluid" id="r2p" src="house.png" onclick="">
+                 <div class="  col-xs-3 col-md-2">
+                 <img class="img-fluid" id="r4p" src="house.png" onclick="">
                  <h6> Housing </h6>
                 </div>
 
@@ -584,7 +584,11 @@ h5{
 
                       <br>
 
-                     <button type="button" class="btn btn-lg btn-block btn-warning my-3">Warning</button>
+                     <div>
+                     <a href="#s4">
+                      <img src="21cake.png" onclick="appearR()" height="300px">
+                      </a>
+                     </div>
 
 
                 </div>
@@ -753,19 +757,12 @@ h5{
 
    }
     
-     function appearR(){
-      document.getElementById('resources').style.visibility='visible';
-      document.getElementById('rdescrip').style.visibility='visible';
-      
-    }
 
-    function appearR2(){
-      document.getElementById('r1p').src="nope.png";
-      document.getElementById('r2p').src="nope.png";
-      document.getElementById('r4p').src="nope.png";
-      document.getElementById('r6p').src="nope.png";
-      document.getElementById("head2").innerHTML = "at 21 you loose several resources";
-       document.getElementById('head3').style.visibility='hidden';
+    function appearR(){
+      document.getElementById('r1p').src="icon_money.png";
+      document.getElementById('r2p').src="healthNo.png";
+      document.getElementById('r3p').src="lawNo.png";
+      document.getElementById('r4p').src="house no.png";
 
 
     }
