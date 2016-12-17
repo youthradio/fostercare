@@ -276,7 +276,7 @@ h5{
          <div >
                 <img class="img-fluid" src="Relative.png" onclick="mInfo1()">
                 <button type="button" class="btn  btn-info"> 
-                 <a href="#more" onclick="mInfo1()">
+                 <a href="#more1" onclick="mInfo1()">
                   Relative
                   </a>
                 </button>
@@ -291,7 +291,7 @@ h5{
       <div>
                 <img class="img-fluid" src="Non-Relative.png" onclick="mInfo2()">
                 <button type="button" class="btn  btn-info"> 
-                 <a href="#more" onclick="mInfo2()">
+                 <a href="#more1" onclick="mInfo2()">
                   Foster Family
                   </a>
                 </button>
@@ -304,8 +304,8 @@ h5{
         <div >
                 <img class="img-fluid" src="Relative.png" onclick="mInfo1()">
                 <button type="button" class="btn  btn-info"> 
-                 <a href="#more" onclick="mInfo5()">
-                  Pre-adoptive Home
+                 <a href="#more1" onclick="mInfo5()">
+                  Pre-adoption
                   </a>
                 </button>
                 <p>    </p>
@@ -317,7 +317,7 @@ h5{
         <div class="">
                 <img class="img-fluid" src="Group Home.png" onclick="mInfo3()">
                 <button type="button" class="btn   btn-info"> 
-                   <a href="#more" onclick="mInfo3()" >
+                   <a href="#more1" onclick="mInfo3()" >
                     Group Home
                     </a>
                 </button>
@@ -331,7 +331,7 @@ h5{
          <div class="" >
                  <img class="img-fluid" src="shelter.png" onclick="mInfo4()">
                  <button type="button" class="btn  btn-info"> 
-                    <a href="#more" onclick="mInfo4()">
+                    <a href="#more1" onclick="mInfo4()">
                      Institution
 
                   </a>
@@ -357,9 +357,11 @@ h5{
 
 
     <!-- MORE INFO Section: Four Placement Options  --> 
+<div class="shh mt-1" id="more1">
+  <br> 
+<div>
 
-
-    <div class="row my-3 shh" id="more" >
+    <div class="row my-3 mt-2 shh" id="more" >
             <div class="col-xs-12 col-md-2">
         
             </div>
@@ -575,8 +577,8 @@ h5{
                 </div>
 
                 <div class="col-xs-3 col-md-2">
-                 <img class="img-fluid" id="r1p" src="money_color.png" onclick="">
-                 <h6> Money </h6>
+                 <img class="img-fluid" id="r4p" src="house.png" onclick="">
+                 <h6> Housing </h6>
                 </div>
 
                 <div class="col-xs-3 col-md-2">
@@ -584,19 +586,20 @@ h5{
                  <h6> Money </h6>
                 </div>
 
+                <div class="  col-xs-3 col-md-2">
+                 <img class="img-fluid" id="r3p" src="law.png" onclick="">
+                 <h6> Legal </h6>
+                </div>
+
                  <div class="  col-xs-3 col-md-2">
-                 <img class="img-fluid" id="r2p" src="health.png" onclick="">
+                 <img class="img-fluid" id="" src="health.png" onclick="">
                   <h6> Healthcare </h6>
                 </div>
 
-                 <div class="  col-xs-3 col-md-2">
-                 <img class="img-fluid" id="r3p" src="law.png" onclick="">
-                 <h6> Law </h6>
-                </div>
 
                  <div class="  col-xs-3 col-md-2">
-                 <img class="img-fluid" id="r4p" src="house.png" onclick="">
-                 <h6> Housing </h6>
+                 <img class="img-fluid" src="grad.png" onclick="">
+                 <h6> Education </h6>
                 </div>
 
 
@@ -618,17 +621,21 @@ h5{
                
                 </div>
                 
-                <div class="col-xs-12 col-md-8 text-xs-center">
-                      <p>In 2008, a federal law allowed states to opt to raise the age cutoff for foster care from 18 to as old as 21. So far, only 21 states have decided to raise the age limit to 21.  If you live in one of these states, you are entitled to certain resources relating to needs like housing, health care, and education. For example in California, older foster youth can receive a monthly housing stipend, access a court appointed special advocate, qualify for health care, and get priority enrollment in state universities and community colleges.
+                <div class="col-xs-12 col-md-8 text-xs-center" >
+                      <p >In 2008, a federal law allowed states to opt to raise the age cutoff for foster care from 18 to as old as 21. So far, only 21 states have decided to raise the age limit to 21.  If you live in one of these states, you are entitled to certain resources relating to needs like housing, health care, and education. For example in California, older foster youth can receive a monthly housing stipend, access a court appointed special advocate, qualify for health care, and get priority enrollment in state universities and community colleges.
  </p>
 
                       <br>
 
                      <div>
-                     <a href="#s4">
+                     
                       <img src="21cake.png" onclick="appearR()" height="300px">
-                      </a>
+                  
+
+                      <br>
+                       <p id="resources21" class="text-xs-center"> </p>
                      </div>
+
 
 
                 </div>
@@ -814,11 +821,9 @@ function mInfo5(){
 
     function appearR(){
       document.getElementById('r1p').src="icon_money.png";
-      document.getElementById('r2p').src="healthNo.png";
       document.getElementById('r3p').src="lawNo.png";
       document.getElementById('r4p').src="house no.png";
-
-
+      document.getElementById("resources21").innerHTML = "Even if you live in a state that has extended foster care benefits to age 21, many of  these benefits will end once you “age out.” That means once you turn 21, you’ll have a court hearing to formally mark the end of your time in foster care. You’ll lose access to your state-guaranteed housing placement or stipend (though there may be local programs you can access). Under the provisions of the Affordable Care Act, you’ll retain access to health care until you’re 26. In states like California, you’ll continue to get priority enrollment in college until age 24. ";
     }
     
 
