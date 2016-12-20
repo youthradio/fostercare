@@ -265,8 +265,8 @@
                <div class="mx-3">
                 <h4 id="Lt" class=""> Relatives  </h4>
 
-                <p id="Ld">  description </p>
-                <a href="#placement"> explore other placements ^ </a> 
+                <p id="Ld" class="">  description </p>
+                <strong> <a href="#placement" class="explore"> explore other placements ^ </a> </strong> 
                 </div>
         
             </div>
@@ -347,7 +347,7 @@
                 </div>
 
                 <br>
-                <img src="arrow.png" class="text-xs-center">
+                <img src="arrow2.png" class="text-xs-center">
                 <br>
                 <br>
                 <p class="text-xs-center"> You just turned 18 while still in the foster care system. Now what? </p>
@@ -359,7 +359,7 @@
                     Depending on where you live, you may or may not have “aged out” of foster care. Based on the needs of older foster youth, many states have extended the amount of time before you lose benefits associated with your foster status.
 
                 </p>
-                <img src="arrow.png" class="text-xs-center">
+                <img src="arrow2.png" class="text-xs-center">
               </div>
 
           </div>
@@ -671,7 +671,7 @@
         document.getElementById('s5').style.visibility='visible';
 
     document.getElementById("Lt").innerHTML = "Foster Family - Non-Relative";
-    document.getElementById("Ld").innerHTML = "You may be placed with a foster parent who is not related to you. Any adult that is at least 21`years old, has passed a background check, and is able to meet their basic financial needs can be a foster parent. Technically foster parents are not “paid.” They are “reimbursed” by the government for the cost of caring for you (rates vary by state) . In several states, there is a shortage of foster parents. This means that it can be harder for some kids, like older youth and children with disabilities, to find foster families.";
+    document.getElementById("Ld").innerHTML = "You may be placed with a foster parent who is not related to you. Any adult that is at least 21`years old, has passed a background check, and is able to meet their basic financial needs can be a foster parent. Technically foster parents are not “paid.” They are “reimbursed” by the government for the cost of caring for you (<a href='http://www.childtrends.org/wp-content/uploads/2013/04/Foster-Care-Payment-Rate-Report.pdf'> rates vary by state</a>) . In several states, there is a <a href='http://fcni.org/new_site/blog/rethinking-foster-parent-recruitment-retention'>shortage </a> of foster parents. This means that it can be harder for <a href='https://www.childwelfare.gov/pubPDFs/s_disrup.pdf'>some kids </a>, like<a href='https://www.acf.hhs.gov/sites/default/files/cb/cbcongregatecare_brief.pdf'> older youth</a> and children with disabilities, to find foster families.";
      document.getElementById('Li').src="Non-Relative.png";
     document.getElementById('head2').style.visibility='visible';
       
@@ -693,7 +693,7 @@
         document.getElementById('s5').style.visibility='visible';
 
     document.getElementById("Lt").innerHTML = "Group Home";
-    document.getElementById("Ld").innerHTML = "If you are placed in a foster group home, that means instead of living with a family, you live with other 12 or fewer foster youth with adults watching over you at all times. You could be placed here for a number of reasons, like because you got in trouble with the law,  or because you have emotional, medical or mental health needs that require stricter management. ";
+    document.getElementById("Ld").innerHTML = "If you are placed in a foster group home, that means instead of living with a family, you live with up to 12 other foster kids with adults watching over you at all times. You could end up here for a number of reasons. Maybe <a href='http://www1.uwindsor.ca/people/gorey/system/files/ChildYouthCareForum2016.pdf'>you got in trouble with the law</a>,  or you have <a href='https://www.childwelfare.gov/topics/outofhome/group-residential-care/'>emotional, medical or mental health needs </a>. Group homes are usually not the first choice for foster kids, and some have been rocked by <a href='https://thinkprogress.org/how-south-carolinas-foster-care-system-is-failing-the-most-vulnerable-kids-fcf2c4d0dccf#.kcsstbk31'>scandals </a>. In 2016, <a href=''>California</a> passed legislation aiming to <a href='https://www.propublica.org/article/california-passes-group-home-legislation-foster-families-troubled-youth'>improve group homes and recruit more families</a> to take in foster kids.";
      document.getElementById('Li').src="Group Home.png";
          document.getElementById('head2').style.visibility='visible';
     
@@ -714,7 +714,7 @@
     document.getElementById('s4').style.visibility='visible';
     document.getElementById('s5').style.visibility='visible';
     document.getElementById("Lt").innerHTML = "Institution";
-    document.getElementById("Ld").innerHTML = "Being placed in an institution means that you live with 12 or more other foster youth.  For the most part, institutions usually tend to be filled with older children. Many different types of places count as institutions. An “institution” could be a larger type of group home or even an emergency shelter.  If you are placed in a shelter, you stay may last anywhere from a couple of hours to several months as another placement is found for you.";
+    document.getElementById("Ld").innerHTML = "It may sound clinical, but a foster care “institution” is pretty much a larger type of group home, for example, a treatment facility or emergency shelter.   If you are placed in a shelter, your stay may last anywhere from a <a href='http://ahum.assembly.ca.gov/sites/ahum.assembly.ca.gov/files/hearings/062811-BarthInstitutionsvFosterHomes.pdf'>couple of hours to several months</a>. Like group homes, institutions tend to be filled with <a href='http://ahum.assembly.ca.gov/sites/ahum.assembly.ca.gov/files/hearings/062811-BarthInstitutionsvFosterHomes.pdf'>older children</a>, who are harder to place with foster families.";
      document.getElementById('Li').src="shelter.png";
          document.getElementById('head2').style.visibility='visible';
            
@@ -731,7 +731,7 @@ function mInfo5(){
     document.getElementById('s4').style.visibility='visible';
     document.getElementById('s5').style.visibility='visible';
     document.getElementById("Lt").innerHTML = "Pre-adoptive Home";
-    document.getElementById("Ld").innerHTML = "If returning to your biological parents is not a viable option for you, your case managers may set the goal of you being adopted by another family (relatives or non-relative). If a family intends to adopt you, you will first be sent to live in their home as a “pre-adoptive” placement, during which social workers will conduct a home study to assess the match. Not all pre-adoptive placements lead to adoptions, so it is still considered a temporary type of placement.";
+    document.getElementById("Ld").innerHTML = "If you can’t go back to your biological parents, your case managers may try for adoption. Even if a family is interested in adopting you, you’ll need to do a “pre-adoptive placement” in their home as a kind of trial period.  Not all pre-adoptive placements lead to adoptions. <a href='http://www.ncsl.org/documents/cyf/movingchildrenoutofcare.pdf'>Ten to 25</a> percent of pre-adoptive placements <a href='http://www.ncsl.org/documents/cyf/movingchildrenoutofcare.pdf'>“disrupt”</a> before the adoption is finalized. And another ten percent of adoptions <a href='https://www.childwelfare.gov/pubPDFs/s_disrup.pdf'>dissolve</a>, which sends you back into foster care.";
      document.getElementById('Li').src="shelter.png";
          document.getElementById('head2').style.visibility='visible';
           

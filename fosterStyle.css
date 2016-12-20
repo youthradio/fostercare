@@ -1,4 +1,4 @@
-  
+
 
 h1{
   font-family: 'Permanent Marker', cursive;
@@ -70,9 +70,13 @@ li{
       }
 
 .ppp{
-  background-color: #603E9A;
+  background-color: #5BC0DE;
   color: white;
   font-size: 1.2em;
+}
+
+.explore{
+  color:green;
 }
 
 .ppp a{
