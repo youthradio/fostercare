@@ -1,0 +1,150 @@
+  
+
+h1{
+  font-family: 'Permanent Marker', cursive;
+
+}
+
+h2{
+  font-family: 'Permanent Marker', cursive;
+
+}
+
+h5{
+  font-size: 4em;
+  font-family: 'Permanent Marker', cursive;
+
+}
+
+
+
+
+ul{
+  list-style: none;
+}
+
+li{
+  padding: 5px;
+}
+
+
+      .icon{
+        height:200px;
+
+      }
+
+      #resources{
+        visibility: hidden;
+      }
+
+      .shh{
+        visibility: hidden;
+
+      }
+
+      .line{
+        height: 100px;
+        border-right: 2px grey solid;
+        margin: auto;
+
+        width: 1px; 
+      }
+
+      .middleP{
+        width: 800px; 
+
+        margin: auto;
+
+      }
+
+      .iconR{
+        height:200px;
+     
+      }
+
+      .hbgimg{
+      background-image: url("tantop.png");
+        background-repeat: repeat-x;
+
+
+      }
+
+.ppp{
+  background-color: #603E9A;
+  color: white;
+  font-size: 1.2em;
+}
+
+.ppp a{
+  color:white;
+}
+
+.ppp a:hover{
+    color:white;
+}
+      
+
+      .h2bg{
+        background-image: url("pinkstreak.png") ;
+        background-repeat: no-repeat;
+        margin: auto;
+        background-position: center;
+      }
+
+      .h3bg{
+          background-image: url("purpleH.png") ;
+        background-repeat: no-repeat;
+        margin: auto;
+
+        background-position: center;
+        padding: 30px;
+      }
+
+      .bottomP{
+        vertical-align: bottom;
+      }
+
+      .b1{
+        border:1px black solid;
+        margin: auto;
+        background-position: center;
+           
+      }
+
+.resRed{
+  background-color: #F5E2E2;
+  border: 3px dashed #ED145B;
+  border-left-style: none;
+  border-right-style: none;
+
+
+
+}
+
+
+.h4bg{
+          background-image: url("readstreak.png") ;
+        background-repeat: no-repeat;
+        margin: auto;
+        background-position: center;
+        padding: 20px;
+
+      }
+
+.h5bg{
+          background-image: url("tealStreak.png") ;
+        background-repeat: no-repeat;
+        margin: auto;
+        background-position: center;
+        padding: 20px;
+
+      }
+
+
+.system{
+  border: 3px dashed #ED145B;
+  background-color: #F5E2E2;
+
+}
+
+
