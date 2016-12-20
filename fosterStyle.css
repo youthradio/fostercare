@@ -151,4 +151,12 @@ li{
 
 }
 
+.moreInfo a {
+  color: #737373;
+}
+
+.moreInfo a:hover {
+  color: white;
+}
+
 
