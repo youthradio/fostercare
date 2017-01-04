@@ -144,6 +144,15 @@ li{
 
       }
 
+.h6bg{
+          background-image: url("babybluestreak.png") ;
+        background-repeat: no-repeat;
+        margin: auto;
+        background-position: center;
+        padding: 20px;
+
+      }
+
 
 
 
