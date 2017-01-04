@@ -88,14 +88,14 @@ li{
 }
       
 
-      .h2bg{
+.h2bg{
         background-image: url("pinkstreak.png") ;
         background-repeat: no-repeat;
         margin: auto;
         background-position: center;
       }
 
-      .h3bg{
+.h3bg{
           background-image: url("purpleH.png") ;
         background-repeat: no-repeat;
         margin: auto;
@@ -104,11 +104,11 @@ li{
         padding: 30px;
       }
 
-      .bottomP{
+.bottomP{
         vertical-align: bottom;
       }
 
-      .b1{
+.b1{
         border:1px black solid;
         margin: auto;
         background-position: center;
