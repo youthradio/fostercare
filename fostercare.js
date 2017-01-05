@@ -75,12 +75,12 @@ function mInfo5(){
     
 
     function appearR(){
+        var copy =" <br> <h5> Former Foster Youth 21+ </h5> <br>Even if you live in a state that has extended foster care benefits, your time in foster care won’t last forever. In <a href=’http://www.ncsl.org/research/human-services/extending-foster-care-to-18.aspx' target='_blank'>nearly all of those states </a>, you’ll “age out” by the time you reach 21. In California, for example, that means you’ll lose your guaranteed housing placement, living stipend, and access to your court-appointed lawyer. There are <a href=’http://thpplus.org/’ target=’_blank’>programs</a> that can help you with some of these needs, but that depends on availability and whether <a href=’http://www.cdss.ca.gov/calworks/’ target=’_blank’>you have children </a>However, you will retain your educational benefits like priority enrollment in state colleges. And under the provisions of the Affordable Care Act, you’ll also retain access to health care until you’re <a href=’http://www.ylc.org/our-work/action-litigation/aging-outtransition/medi-cal-for-former-foster-youth/’ target=’_blank’>26</a>. ";
+
       document.getElementById('r1p').src="money_Nope.png";
       document.getElementById('r3p').src="lawNo.png";
       document.getElementById('r4p').src="house_No.png";
-      document.getElementById("resources21").innerHTML = "Even if you live in a state that has extended foster care benefits to age 21, many of  these benefits will end once you “age out.” That means once you turn 21, you’ll have a court hearing to formally mark the end of your time in foster care. You’ll lose access to your state-guaranteed housing placement or stipend (though there may be local programs you can access). Under the provisions of the Affordable Care Act, you’ll retain access to health care until you’re 26. In states like California, you’ll continue to get priority enrollment in college until age 24. ";
-    
+      document.getElementById("resources21").innerHTML = copy;
 document.getElementById("videEm").innerHTML= "This is some text to intro Noel and this video <br> <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/yPUHxVwiIws' frameborder='0' allowfullscreen></iframe></div><br><br>";
-
 
     }

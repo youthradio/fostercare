@@ -11,7 +11,7 @@ h2{
 }
 
 h5{
-  font-size: 4em;
+  font-size: 24px;
   font-family: 'Permanent Marker', cursive;
 
 }
@@ -157,13 +157,7 @@ li{
   color:#5BC0DE;
 }
 
-.moreInfo a {
-  color: #737373;
-}
 
-.moreInfo a:hover {
-  color: white;
-}
 
 li strong a{
   color:black;
