@@ -131,7 +131,7 @@ li{
         background-repeat: no-repeat;
         margin: auto;
         background-position: center;
-        padding: 20px;
+        padding: 16px;
 
       }
 
@@ -153,8 +153,9 @@ li{
 
       }
 
-
-
+.return a{
+  color:#5BC0DE;
+}
 
 .moreInfo a {
   color: #737373;
@@ -164,4 +165,11 @@ li{
   color: white;
 }
 
+li strong a{
+  color:black;
+  font-size: 18px;
+}
 
+ul.ar{
+      list-style-type: disc;
+}

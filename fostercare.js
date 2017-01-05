@@ -79,4 +79,5 @@ function mInfo5(){
       document.getElementById('r3p').src="lawNo.png";
       document.getElementById('r4p').src="house_No.png";
       document.getElementById("resources21").innerHTML = "Even if you live in a state that has extended foster care benefits to age 21, many of  these benefits will end once you “age out.” That means once you turn 21, you’ll have a court hearing to formally mark the end of your time in foster care. You’ll lose access to your state-guaranteed housing placement or stipend (though there may be local programs you can access). Under the provisions of the Affordable Care Act, you’ll retain access to health care until you’re 26. In states like California, you’ll continue to get priority enrollment in college until age 24. ";
+      document.getElementById("videEm").innerHTML="This is some text to intro Noel and this video <br> <iframe width='560' height='315' src='https://www.youtube.com/embed/yPUHxVwiIws' frameborder='0' allowfullscreen></iframe>";
     }
