@@ -656,9 +656,8 @@
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script type="text/javascript">
    
-
- function mInfo1(){
-    document.getElementById('more').style.visibility='visible';
+function showAll(){
+	document.getElementById('more').style.visibility='visible';
     document.getElementById('sA').style.visibility='visible';
     document.getElementById('sA2').style.visibility='visible';
 	document.getElementById("testing").innerHTML = " ";
@@ -668,6 +667,9 @@
     document.getElementById('s4').style.visibility='visible';
     document.getElementById('s5').style.visibility='visible';
     document.getElementById('s6').style.visibility='visible';
+}
+ function mInfo1(){
+    showAll();
     document.getElementById("Lt").innerHTML = "Foster Parent - Relative ";
     document.getElementById("Ld").innerHTML = "After you are placed in foster care, your state will try to notify your adult relatives. Most states prefer to have you live with relatives versus non-relatives. But before your relatives can get money from the foster system, they must first show they are “fit and willing” to take care of you. This may include a home visit and/or having all members of the household undergo a criminal background check. ";
      document.getElementById('Li').src="Relative.png";
@@ -678,17 +680,10 @@
 
 
    function mInfo2(){
-    document.getElementById('more').style.visibility='visible';
-          document.getElementById('sA').style.visibility='visible';
-    document.getElementById('sA2').style.visibility='visible';
- document.getElementById("testing").innerHTML = "<audio controls> <source src='Non-Relative Foster Family_Foster Youth Voices_Being In Foster Care Made Me Stronger_Melissa Beavers.mp3' tyle='audio/mpeg'>";
-      document.getElementById('s1').style.visibility='visible';
-    document.getElementById('s2').style.visibility='visible';
-    document.getElementById('s3').style.visibility='visible';
-    document.getElementById('s4').style.visibility='visible';
-        document.getElementById('s5').style.visibility='visible';
-            document.getElementById('s6').style.visibility='visible';
 
+   showAll();
+    
+ document.getElementById("testing").innerHTML = "<audio controls> <source src='Non-Relative Foster Family_Foster Youth Voices_Being In Foster Care Made Me Stronger_Melissa Beavers.mp3' tyle='audio/mpeg'>";
     document.getElementById("Lt").innerHTML = "Foster Family - Non-Relative";
     document.getElementById("Ld").innerHTML = "You may be placed with a foster parent who is not related to you. Adults who are at least 21`years old, have passed a background check, and are able to meet their basic financial needs are eligible to be foster parents. Technically, foster parents are not “paid.” They are “reimbursed” by the government for the cost of caring for you (<a href='http://www.childtrends.org/wp-content/uploads/2013/04/Foster-Care-Payment-Rate-Report.pdf' target='_blank'>rates vary by state</a>). In several states, there is a <a href='http://fcni.org/new_site/blog/rethinking-foster-parent-recruitment-retention' target='_blank'>shortage</a> of foster parents. It can be harder for <a href='https://www.childwelfare.gov/pubPDFs/s_disrup.pdf' target='_blank'>some kids</a>, like <a href='https://www.acf.hhs.gov/sites/default/files/cb/cbcongregatecare_brief.pdf' target='_blank' >older youth</a> and children with emotional and physical issues, to find foster families.";
      document.getElementById('Li').src="Non-Relative.png";
@@ -701,17 +696,7 @@
 
 
    function mInfo3(){
-    document.getElementById('more').style.visibility='visible';
-          document.getElementById('sA').style.visibility='visible';
-    document.getElementById('sA2').style.visibility='visible';
-
-      document.getElementById('s1').style.visibility='visible';
-    document.getElementById('s2').style.visibility='visible';
-    document.getElementById('s3').style.visibility='visible';
-    document.getElementById('s4').style.visibility='visible';
-        document.getElementById('s5').style.visibility='visible';
-       document.getElementById('s6').style.visibility='visible';
-
+   	showAll();
     document.getElementById("testing").innerHTML = "<audio controls> <source src='Group Home_Foster Youth Voices_When Home Feels Like A Prison_Noel Anaya.mp3' tyle='audio/mpeg'>";
 
     document.getElementById("Lt").innerHTML = "Group Home";
@@ -725,16 +710,7 @@
    }
 
       function mInfo4(){
-    document.getElementById('more').style.visibility='visible';
-          document.getElementById('sA').style.visibility='visible';
-    document.getElementById('sA2').style.visibility='visible';
-    document.getElementById("testing").innerHTML = " ";
-      document.getElementById('s1').style.visibility='visible';
-    document.getElementById('s2').style.visibility='visible';
-    document.getElementById('s3').style.visibility='visible';
-    document.getElementById('s4').style.visibility='visible';
-    document.getElementById('s5').style.visibility='visible';
-    document.getElementById('s6').style.visibility='visible';
+      	showAll();
 
     document.getElementById("Lt").innerHTML = "Institution";
     document.getElementById("Ld").innerHTML = "It may sound clinical, but a foster care “institution” is pretty much a larger type of group home, for example, a treatment facility or emergency shelter.   If you are placed in a shelter, your stay may last anywhere from a <a href='http://ahum.assembly.ca.gov/sites/ahum.assembly.ca.gov/files/hearings/062811-BarthInstitutionsvFosterHomes.pdf' target='_blank'>couple of hours to several months</a>. Like group homes, institutions tend to be filled with <a href='http://ahum.assembly.ca.gov/sites/ahum.assembly.ca.gov/files/hearings/062811-BarthInstitutionsvFosterHomes.pdf' target='_blank'>older children</a>, who are harder to place with foster families.";
@@ -744,16 +720,10 @@
    }
 
 function mInfo5(){
-    document.getElementById('more').style.visibility='visible';
-          document.getElementById('sA').style.visibility='visible';
-    document.getElementById('sA2').style.visibility='visible';
+	showAll();
+    
 document.getElementById("testing").innerHTML = " ";
-      document.getElementById('s1').style.visibility='visible';
-    document.getElementById('s2').style.visibility='visible';
-    document.getElementById('s3').style.visibility='visible';
-    document.getElementById('s4').style.visibility='visible';
-    document.getElementById('s5').style.visibility='visible';
-    document.getElementById('s6').style.visibility='visible';
+    
     document.getElementById("Lt").innerHTML = "Preadoptive Home";
     document.getElementById("Ld").innerHTML = "If you can’t go back to your biological parents, your case managers may try for adoption. Even if a family is interested in adopting you, you’ll need to do a “pre-adoptive placement” in their home as a kind of trial period.  Not all pre-adoptive placements lead to adoptions. <a href='http://www.ncsl.org/documents/cyf/movingchildrenoutofcare.pdf' target='_blank'>Ten to 25</a> percent of pre-adoptive placements <a href='http://www.ncsl.org/documents/cyf/movingchildrenoutofcare.pdf' target='_blank'>“disrupt”</a> before the adoption is finalized. And another ten percent of adoptions <a href='https://www.childwelfare.gov/pubPDFs/s_disrup.pdf' target='_blank'>dissolve</a>, which sends you back into foster care.";
      document.getElementById('Li').src="Preadoptivehome.png";
