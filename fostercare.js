@@ -1,5 +1,5 @@
   
-function showAll(){
+function showAll2(){
 	document.getElementById('more').style.visibility='visible';
     document.getElementById('sA').style.visibility='visible';
     document.getElementById('sA2').style.visibility='visible';
@@ -12,12 +12,34 @@ function showAll(){
     document.getElementById('s6').style.visibility='visible';
     document.getElementById('s7').style.visibility='visible';
 }
+
+function showAll(){
+  var x = document.getElementsByClassName("shh");
+  x[0].style.display = "block";
+  x[1].style.display = "block";
+  x[2].style.display = "block";
+  x[3].style.display = "block";
+  x[4].style.display = "block";
+  x[5].style.display = "block";
+  x[6].style.display = "block";
+  x[7].style.display = "block";
+  x[8].style.display = "block";
+  x[9].style.display = "block";
+  x[10].style.display = "block";
+
+  
+  
+
+
+}
+
  function mInfo1(){
     showAll();
     document.getElementById("Lt").innerHTML = "Foster Parent - Relative ";
     document.getElementById("Ld").innerHTML = "After you are placed in foster care, your state will try to notify your adult relatives. Most states prefer to have you live with relatives versus non-relatives. But before your relatives can get money from the foster system, they must first show they are “fit and willing” to take care of you. This may include a home visit and/or having all members of the household undergo a criminal background check. ";
-     document.getElementById('Li').src="Relative.png";
-         document.getElementById('head2').style.visibility='visible';
+    document.getElementById('Li').src="Relative.png";
+    document.getElementById('head2').style.visibility='visible';
+    document.getElementById("testing").innerHTML = " ";
 
    }
 
@@ -56,22 +78,21 @@ function showAll(){
 
       function mInfo4(){
       	showAll();
-
-    document.getElementById("Lt").innerHTML = "Institution";
-    document.getElementById("Ld").innerHTML = "It may sound clinical, but a foster care “institution” is pretty much a larger type of group home, for example, a treatment facility or emergency shelter.   If you are placed in a shelter, your stay may last anywhere from a <a href='http://ahum.assembly.ca.gov/sites/ahum.assembly.ca.gov/files/hearings/062811-BarthInstitutionsvFosterHomes.pdf' target='_blank'>couple of hours to several months</a>. Like group homes, institutions tend to be filled with <a href='http://ahum.assembly.ca.gov/sites/ahum.assembly.ca.gov/files/hearings/062811-BarthInstitutionsvFosterHomes.pdf' target='_blank'>older children</a>, who are harder to place with foster families.";
-     document.getElementById('Li').src="shelter.png";
-         document.getElementById('head2').style.visibility='visible';
+        document.getElementById("testing").innerHTML = " ";
+        document.getElementById("Lt").innerHTML = "Institution";
+        document.getElementById("Ld").innerHTML = "It may sound clinical, but a foster care “institution” is pretty much a larger type of group home, for example, a treatment facility or emergency shelter.   If you are placed in a shelter, your stay may last anywhere from a <a href='http://ahum.assembly.ca.gov/sites/ahum.assembly.ca.gov/files/hearings/062811-BarthInstitutionsvFosterHomes.pdf' target='_blank'>couple of hours to several months</a>. Like group homes, institutions tend to be filled with <a href='http://ahum.assembly.ca.gov/sites/ahum.assembly.ca.gov/files/hearings/062811-BarthInstitutionsvFosterHomes.pdf' target='_blank'>older children</a>, who are harder to place with foster families.";
+        document.getElementById('Li').src="shelter.png";
+        document.getElementById('head2').style.visibility='visible';
            
    }
 
 function mInfo5(){
 	showAll();
-    
 	document.getElementById("testing").innerHTML = " ";
-    document.getElementById("Lt").innerHTML = "Preadoptive Home";
-    document.getElementById("Ld").innerHTML = "If you can’t go back to your biological parents, your case managers may try for adoption. Even if a family is interested in adopting you, you’ll need to do a “pre-adoptive placement” in their home as a kind of trial period.  Not all pre-adoptive placements lead to adoptions. <a href='http://www.ncsl.org/documents/cyf/movingchildrenoutofcare.pdf' target='_blank'>Ten to 25</a> percent of pre-adoptive placements <a href='http://www.ncsl.org/documents/cyf/movingchildrenoutofcare.pdf' target='_blank'>“disrupt”</a> before the adoption is finalized. And another ten percent of adoptions <a href='https://www.childwelfare.gov/pubPDFs/s_disrup.pdf' target='_blank'>dissolve</a>, which sends you back into foster care.";
-     document.getElementById('Li').src="Preadoptivehome.png";
-         document.getElementById('head2').style.visibility='visible';
+  document.getElementById("Lt").innerHTML = "Pre-doptive Home";
+  document.getElementById("Ld").innerHTML = "If you can’t go back to your biological parents, your case managers may try for adoption. Even if a family is interested in adopting you, you’ll need to do a “pre-adoptive placement” in their home as a kind of trial period.  Not all pre-adoptive placements lead to adoptions. <a href='http://www.ncsl.org/documents/cyf/movingchildrenoutofcare.pdf' target='_blank'>Ten to 25</a> percent of pre-adoptive placements <a href='http://www.ncsl.org/documents/cyf/movingchildrenoutofcare.pdf' target='_blank'>“disrupt”</a> before the adoption is finalized. And another ten percent of adoptions <a href='https://www.childwelfare.gov/pubPDFs/s_disrup.pdf' target='_blank'>dissolve</a>, which sends you back into foster care.";
+  document.getElementById('Li').src="Preadoptivehome.png";
+  document.getElementById('head2').style.visibility='visible';
           
    }
     

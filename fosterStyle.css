@@ -38,8 +38,12 @@ li{
       }
 
       .shh{
-        visibility: hidden;
+        display: none;
 
+      }
+
+      #Section2{
+        display: none;
       }
 
       .line{
