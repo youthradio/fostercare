@@ -167,3 +167,9 @@ li strong a{
 ul.ar{
       list-style-type: disc;
 }
+
+.greySection{
+  background-color: lightgrey;
+}
+
+
