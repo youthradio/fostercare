@@ -157,6 +157,15 @@ li{
 
       }
 
+  .h7bg{
+        background-image: url("babybluestreak.png") ;
+        background-repeat: no-repeat;
+        margin: 10px auto;
+        background-position: center;
+        padding: 30px;
+
+      }
+
 .return a{
   color:#5BC0DE;
 }

@@ -24,8 +24,7 @@ function showAll(){
   x[6].style.display = "block";
   x[7].style.display = "block";
   x[8].style.display = "block";
-  x[9].style.display = "block";
-  x[10].style.display = "block";
+  
 
   
   
@@ -89,7 +88,7 @@ function showAll(){
 function mInfo5(){
 	showAll();
 	document.getElementById("testing").innerHTML = " ";
-  document.getElementById("Lt").innerHTML = "Pre-doptive Home";
+  document.getElementById("Lt").innerHTML = "Pre-adoptive Home";
   document.getElementById("Ld").innerHTML = "If you can’t go back to your biological parents, your case managers may try for adoption. Even if a family is interested in adopting you, you’ll need to do a “pre-adoptive placement” in their home as a kind of trial period.  Not all pre-adoptive placements lead to adoptions. <a href='http://www.ncsl.org/documents/cyf/movingchildrenoutofcare.pdf' target='_blank'>Ten to 25</a> percent of pre-adoptive placements <a href='http://www.ncsl.org/documents/cyf/movingchildrenoutofcare.pdf' target='_blank'>“disrupt”</a> before the adoption is finalized. And another ten percent of adoptions <a href='https://www.childwelfare.gov/pubPDFs/s_disrup.pdf' target='_blank'>dissolve</a>, which sends you back into foster care.";
   document.getElementById('Li').src="Preadoptivehome.png";
   document.getElementById('head2').style.visibility='visible';
@@ -98,12 +97,20 @@ function mInfo5(){
     
 
     function appearR(){
-        var copy ="<br> <h5> Former Foster Youth 21+ </h5> <br>Even if you live in a state that has extended foster care benefits, your time in foster care won’t last forever. In <a href=’http://www.ncsl.org/research/human-services/extending-foster-care-to-18.aspx' target='_blank'>nearly all of those states </a>, you’ll “age out” by the time you reach 21. In California, for example, that means you’ll lose your guaranteed housing placement, living stipend, and access to your court-appointed lawyer. There are <a href=’http://thpplus.org/’ target=’_blank’>programs</a> that can help you with some of these needs, but that depends on availability and whether <a href=’http://www.cdss.ca.gov/calworks/’ target=’_blank’>you have children</a>. However, you will retain your educational benefits like priority enrollment in state colleges. And under the provisions of the Affordable Care Act, you’ll also retain access to health care until you’re <a href=’http://www.ylc.org/our-work/action-litigation/aging-outtransition/medi-cal-for-former-foster-youth/’ target=’_blank’>26</a>. ";
+        //var copy ="Even if you live in a state that has extended foster care benefits, your time in foster care won’t last forever. In <a href=’http://www.ncsl.org/research/human-services/extending-foster-care-to-18.aspx' target='_blank'>nearly all of those states </a>, you’ll “age out” by the time you reach 21. In California, for example, that means you’ll lose your guaranteed housing placement, living stipend, and access to your court-appointed lawyer. There are <a href=’http://thpplus.org/’ target=’_blank’>programs</a> that can help you with some of these needs, but that depends on availability and whether <a href=’http://www.cdss.ca.gov/calworks/’ target=’_blank’>you have children</a>. However, you will retain your educational benefits like priority enrollment in state colleges. And under the provisions of the Affordable Care Act, you’ll also retain access to health care until you’re <a href=’http://www.ylc.org/our-work/action-litigation/aging-outtransition/medi-cal-for-former-foster-youth/’ target=’_blank’>26</a>. ";
 
       document.getElementById('r1p').src="money_Nope.png";
       document.getElementById('r3p').src="lawNo.png";
       document.getElementById('r4p').src="house_No.png";
-      document.getElementById("resources21").innerHTML = copy;
-      document.getElementById("videEm").innerHTML="Youth Radio's Noel Anaya entered foster care when he was two years old. He recently “aged out” of the system at age 21. He reflects on what the change will mean for him. <br> <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/RfEiQqSIOsw' frameborder='0' allowfullscreen></iframe></div>";
+      //document.getElementById("resources21").innerHTML = copy;
+      
+      document.getElementById("videEm").innerHTML="Youth Radio's Noel Anaya entered foster care when he was two years old. He recently “aged out” of the system at age 21. He reflects on what the change will mean for him. <br> <br> <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/RfEiQqSIOsw' frameborder='0' allowfullscreen></iframe></div>";
+    
+    var x = document.getElementsByClassName("shh");
+      x[9].style.display = "block";
+      x[10].style.display = "block";
+      x[11].style.display = "block";
+      x[12].style.display = "block";
+
     }
 
