@@ -72,18 +72,17 @@ function showAll(){
 
       function mInfo4(){
       	showAll();
-      
+        document.getElementById("testing").innerHTML = " ";
+
         document.getElementById("Lt").innerHTML = "Institution";
         document.getElementById("Ld").innerHTML = "It may sound clinical, but a foster care “institution” is pretty much a larger type of group home, for example, a treatment facility or emergency shelter.   If you are placed in a shelter, your stay may last anywhere from a <a href='http://ahum.assembly.ca.gov/sites/ahum.assembly.ca.gov/files/hearings/062811-BarthInstitutionsvFosterHomes.pdf' target='_blank'>couple of hours to several months</a>. Like group homes, institutions tend to be filled with <a href='http://ahum.assembly.ca.gov/sites/ahum.assembly.ca.gov/files/hearings/062811-BarthInstitutionsvFosterHomes.pdf' target='_blank'>older children</a>, who are harder to place with foster families.";
         document.getElementById('Li').src="shelter.png";
         document.getElementById('head2').style.visibility='visible';
   
-        document.getElementById("testing").innerHTML = " ";
            }
 
 function mInfo5(){
 	showAll();
-
 	document.getElementById("testing").innerHTML = " ";
   document.getElementById("Lt").innerHTML = "Pre-adoptive Home";
   document.getElementById("Ld").innerHTML = "If you can’t go back to your biological parents, your case managers may try for adoption. Even if a family is interested in adopting you, you’ll need to do a “pre-adoptive placement” in their home as a kind of trial period.  Not all pre-adoptive placements lead to adoptions. <a href='http://www.ncsl.org/documents/cyf/movingchildrenoutofcare.pdf' target='_blank'>Ten to 25</a> percent of pre-adoptive placements <a href='http://www.ncsl.org/documents/cyf/movingchildrenoutofcare.pdf' target='_blank'>“disrupt”</a> before the adoption is finalized. And another ten percent of adoptions <a href='https://www.childwelfare.gov/pubPDFs/s_disrup.pdf' target='_blank'>dissolve</a>, which sends you back into foster care.";
