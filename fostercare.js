@@ -101,7 +101,7 @@ function mInfo5(){
       document.getElementById('r4p').src="house_No.png";
       //document.getElementById("resources21").innerHTML = copy;
       
-      document.getElementById("videEm").innerHTML="Youth Radio's Noel Anaya entered foster care when he was a years old. He recently “aged out” of the system at age 21. He reflects on what the change will mean for him. <br> <br> <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/RfEiQqSIOsw' frameborder='0' allowfullscreen></iframe></div>";
+      document.getElementById("videEm").innerHTML="Youth Radio's Noel Anaya entered foster care when he was a year old. He recently “aged out” of the system at age 21. He says the process feels like emancipating from a system that was never that good at caring for him.<br> <br> <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/RfEiQqSIOsw' frameborder='0' allowfullscreen></iframe></div>";
     var x = document.getElementsByClassName("shh");
       x[9].style.display = "block";
       x[10].style.display = "block";
