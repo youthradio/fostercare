@@ -76,7 +76,7 @@ function showAll(){
     document.getElementById("testing").innerHTML = " ";
 
     document.getElementById("Lt").innerHTML = "Institution";
-    document.getElementById("Ld").innerHTML = "It sound clinical, but a foster care “institution” is pretty much a larger type of group home, for example, a treatment facility or emergency shelter.   If you are placed in a shelter, your stay may last anywhere from a <a href='http://ahum.assembly.ca.gov/sites/ahum.assembly.ca.gov/files/hearings/062811-BarthInstitutionsvFosterHomes.pdf' target='_blank'>couple of hours to several months</a>. Like group homes, institutions tend to be filled with <a href='http://ahum.assembly.ca.gov/sites/ahum.assembly.ca.gov/files/hearings/062811-BarthInstitutionsvFosterHomes.pdf' target='_blank'>older children</a>, who are harder to place with foster families.";
+    document.getElementById("Ld").innerHTML = "It sounds clinical, but a foster care “institution” is pretty much a larger type of group home, for example, a treatment facility or emergency shelter.   If you are placed in a shelter, your stay may last anywhere from a <a href='http://ahum.assembly.ca.gov/sites/ahum.assembly.ca.gov/files/hearings/062811-BarthInstitutionsvFosterHomes.pdf' target='_blank'>couple of hours to several months</a>. Like group homes, institutions tend to be filled with <a href='http://ahum.assembly.ca.gov/sites/ahum.assembly.ca.gov/files/hearings/062811-BarthInstitutionsvFosterHomes.pdf' target='_blank'>older children</a>, who are harder to place with foster families.";
     document.getElementById('Li').src="shelter.png";
     document.getElementById('head2').style.visibility='visible';
   
